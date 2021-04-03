@@ -1,8 +1,11 @@
 package com.ecodation.inheritancex;
 
+import java.io.Serializable;
+
 //aynı ortak  özellikler
 
-public class Person {
+public class Person implements Serializable {
+	private static final long serialVersionUID = 6745941436540566444L;
 
 	private long personId;
 	private String personName;
