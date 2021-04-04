@@ -1,4 +1,4 @@
-package com.ecodaiton.composition;
+package com.ecodatiton.composition;
 
 import java.util.ArrayList;
 

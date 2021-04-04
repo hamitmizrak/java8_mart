@@ -1,4 +1,4 @@
-package com.ecodaiton.composition;
+package com.ecodatiton.composition;
 
 import java.io.Serializable;
 import java.util.List;
