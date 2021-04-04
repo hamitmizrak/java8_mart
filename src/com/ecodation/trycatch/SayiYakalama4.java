@@ -11,7 +11,7 @@ public class SayiYakalama4 {
 		int sayi = 4 / 0;
 		System.out.println("2.alan");
 	}
-a
+
 	public static void deneme() {
 		try {
 			method1();
