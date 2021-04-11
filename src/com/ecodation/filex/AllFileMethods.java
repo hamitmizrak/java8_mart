@@ -9,7 +9,6 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class AllFileMethods {
-
 	// file oluşturma
 	public void fileCreateMethod() {
 		String yeniPath = FileStaticPath.getStatcPath();
@@ -23,7 +22,6 @@ public class AllFileMethods {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-
 	}
 
 	// file silme
@@ -64,18 +62,18 @@ public class AllFileMethods {
 		}
 
 	}
+	// / Linux
+	// \ Windows
 
 	// file okuma
 	public void fileReader() {
 		String path = FileStaticPath.getStatcPath();
-
 		try {
 			String toplam = "";
 			String satir = "";
 			File file = new File(path);
 			FileReader fileReader = new FileReader(file);
 			BufferedReader bufferedWriter = new BufferedReader(fileReader);
-
 			while ((satir = bufferedWriter.readLine()) != null) {
 				toplam += satir;
 			}
